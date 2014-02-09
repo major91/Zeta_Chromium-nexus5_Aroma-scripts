@@ -1,0 +1,13 @@
+
+
+<b>Agreement:</b>
+
+<*>You are installing this at your own risk</*>
+
+<*>I am not responsible for any damages or problems that may occur by using this kernel</*>
+
+<*>By using this kernel, you agree with the above terms!</*>
+
+<*>This kernel is for Nexus 5 user, don't install another device</*>
+
+<*>If you want bug report or any feedback, send email this way (jacksn91@gmail.com) </*>
