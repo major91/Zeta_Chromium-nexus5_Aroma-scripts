@@ -1,13 +1,13 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.5.3 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.6 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>revert Jrcu (video and torrent problem)</*>
+<*>fix cpufreq & block</*>
 
-<*>unpackramdisk.sh: fix obb problem and mount problem</*>
+<*>msm: mdss: Reset panel to apply RGB gamma data /*>
 
-<*>Linux 3.4.78->79</*>
+<*>unpackramdisk.sh: sdcard obb mount fixed </*>
 
 <*>Fixes for screen dimmer and fast charge modules</*>
 
-<*>arm: vfpmodule: Fix warning procfs vfp_bounce reporting failed</*>
+<*>update BusyBox to 1.22.1</*>
