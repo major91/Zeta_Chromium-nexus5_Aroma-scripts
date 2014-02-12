@@ -160,8 +160,5 @@ if [ $FSC = 1 ]; then
 echo "echo 1 > /sys/kernel/dyn_fsync/Dyn_fsync_active" >> $SCRIPT;
 fi
 
-echo "/sbin/busybox mount -o remount,rw /" >> $SCRIPT;
-echo "rm /sbin/zetadChromium.sh" >> $SCRIPT;
-
 #chmod 755 /system/etc/init.d
 chmod 755 $SCRIPT
