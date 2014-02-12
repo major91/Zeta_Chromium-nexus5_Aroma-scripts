@@ -35,22 +35,13 @@ then
 LINE=$(/tmp/busybox sed -n '/service sdcard/=' $outputdir/init.hammerhead.rc)
 let NLINE=$LINE+1
 /tmp/busybox sed -i "$NLINE""d" $outputdir/init.hammerhead.rc
-/tmp/busybox sed -i 's/service sdcard.*/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard_2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/mnt\/shell\/emulated\/obb \/mnt\/shell\/emulated\/0\/Android\/obb\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
-fi
-
-#user is coming from old version of Zeta Chromium
-if grep "mount -t sdcardfs" $outputdir/init.hammerhead.rc
-then
-if ! grep "service sdcard_2" $outputdir/init.hammerhead.rc
-then
-/tmp/busybox sed -i 's/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard_2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/mnt\/shell\/emulated\/obb \/mnt\/shell\/emulated\/0\/Android\/obb\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
-fi
+/tmp/busybox sed -i 's/service sdcard.*/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
 fi
 
 #user is coming from old test version of Zeta Chromium
 if grep "service sdcard_3" $outputdir/init.hammerhead.rc
 then
-/tmp/busybox sed -i 's/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/0 \/storage\/emulated\/0\n    class core\n    user root\n    oneshot\n\nservice sdcard_3 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/legacy \/storage\/emulated\/legacy\n    class core\n    user root\n    oneshot/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard_2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/mnt\/shell\/emulated\/obb \/mnt\/shell\/emulated\/0\/Android\/obb\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
+/tmp/busybox sed -i 's/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/0 \/storage\/emulated\/0\n    class core\n    user root\n    oneshot\n\nservice sdcard_3 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/legacy \/storage\/emulated\/legacy\n    class core\n    user root\n    oneshot/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
 fi
 
 if ! grep "/data/media/0/Android/obb" $outputdir/fstab.hammerhead
