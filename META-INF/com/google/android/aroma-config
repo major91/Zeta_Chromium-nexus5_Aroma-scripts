@@ -1,9 +1,9 @@
 ##
 # Initializing Rom Information
 #
-ini_set("rom_name",             "Zeta_Chromium-kernel");
+ini_set("rom_name",             "Zeta Chromium kernel");
 ini_set("rom_version",          "2.5.3");
-ini_set("rom_author",           "Major91");
+ini_set("rom_author",           "major91");
 ini_set("rom_device",           "Nexus 5");
 ini_set("rom_date",             "Feb 08, 2014");
 
@@ -73,7 +73,7 @@ viewbox(
     "<~Welcome>",
   
   #-- Text
-    "<~Kernel Name> <b>"+
+    "<~> <b>"+
 	  #-- Get Config Value
 	  ini_get("rom_name")+
 	"</b> <~for> <b>"+ini_get("rom_device")+"</b>.\n\n"+
@@ -84,7 +84,7 @@ viewbox(
      # "  <~welcome.codename>\t\t: <b><#selectbg_g>Flamboyan Beta</#></b>\n"+
       "  <~kernel Date>\t\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
 
-    "<~please touch to Next>",
+    "<~Please touch Next>",
   
   #-- Icon
     "@welcome"
@@ -100,7 +100,7 @@ agreebox(
     "<~agreement>",
   
   #-- Subtitle / Description
-    "<~install agree>",
+    "<~Install agreements>",
   
   #-- Icon
     "@agreement",
@@ -109,10 +109,10 @@ agreebox(
     resread("agreement.txt"),
   
   #-- Checkbox Text
-    "<~agree>",
+    "<~Accept>",
   
   #-- Unchecked Alert Message
-    "<~click agreement>"
+    "<~Please accept the aggrements>"
 );
 
 
@@ -122,10 +122,10 @@ agreebox(
 #
 textbox(
   #-- Title
-    "<~changelog>",
+    "<~Changelog>",
   
   #-- Subtitle
-    "<~changelog>",
+    "<~Changelog>",
   
   #-- Icon
     "@update",
@@ -160,7 +160,7 @@ menubox(
   # TITLE                   |  SUBTITLE                                                 |   Item Icons  #
   #-------------------------+-----------------------------------------------------------+---------------#
   
-    "Install Zeta_chromium_kernel",      "Install with AROMA installer",       "@install"       #-- selected = 1
+    "Install Zeta Chromium kernel",      "Install with AROMA installer",       "@install"       #-- selected = 1
 );
 
 ###################################################################################################################
@@ -328,7 +328,7 @@ selectbox(
   );
   selectbox(
   "VIB",
-  "VIB STRENGTH",
+  "VIBRATION STRENGTH",
   "@default",
   "vib.prop",
        "Vibrator",             	"",   2,
@@ -413,7 +413,7 @@ setvar("retstatus",
       "Installing",
 	
 	#-- Installation Process message
-	  "<b>"+ini_get("rom_name")+"</b> are being installed.\n\n"+
+	  "<b>"+ini_get("rom_name")+"</b> is being installed.\n\n"+
       "Please wait while installation wizard installs <b>"+ini_get("rom_name")+
 	  "</b>. This may take several minutes.",
 	

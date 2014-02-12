@@ -6,8 +6,9 @@
 
 <*>I am not responsible for any damages or problems that may occur by using this kernel</*>
 
-<*>By using this kernel, you agree with the above terms!</*>
+<*>This kernel is for Nexus 5, don't install on other devices</*>
 
-<*>This kernel is for Nexus 5 user, don't install another device</*>
+<*>If you want to submit a bug report or any feedback, send email to this address (jacksn91@gmail.com) </*>
 
-<*>If you want bug report or any feedback, send email this way (jacksn91@gmail.com) </*>
+<*>By using this kernel, you are agreeing with the above terms!</*>
+
