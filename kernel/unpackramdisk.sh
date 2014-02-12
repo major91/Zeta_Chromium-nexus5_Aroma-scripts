@@ -52,6 +52,11 @@ then
 /tmp/busybox sed -i 's/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/0 \/storage\/emulated\/0\n    class core\n    user root\n    oneshot\n\nservice sdcard_3 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media\/legacy \/storage\/emulated\/legacy\n    class core\n    user root\n    oneshot/service sdcard \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/data\/media \/mnt\/shell\/emulated\n    class core\n    user root\n    oneshot\n\nservice sdcard_2 \/sbin\/busybox mount -t sdcardfs -o rw,nosuid,nodev,noatime,nodiratime,uid=1023,gid=1023 \/mnt\/shell\/emulated\/obb \/mnt\/shell\/emulated\/0\/Android\/obb\n    class core\n    user root\n    oneshot/g' $outputdir/init.hammerhead.rc
 fi
 
+if ! grep "/data/media/0/Android/obb" $outputdir/fstab.hammerhead
+then
+/tmp/busybox echo "/data/media/obb	/data/media/0/Android/obb	none	bind	wait" >> $outputdir/fstab.hammerhead
+fi
+
 /tmp/busybox sed -i -e 's/on init/on init\n    setenforce 0\n    setprop ro.boot.selinux 0/g' $outputdir/init.hammerhead.rc
 
 /tmp/busybox mv /tmp/zetaChromium.sh $outputdir/sbin/zetaChromium.sh
