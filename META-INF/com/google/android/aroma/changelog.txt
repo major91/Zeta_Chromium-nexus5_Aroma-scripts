@@ -1,13 +1,13 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.6 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.7 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>fix cpufreq & block</*>
+<*>Linux 3.4.80</*>
 
-<*>msm: mdss: Reset panel to apply RGB gamma data /*>
+<*>ondemand gov fix up/*>
 
-<*>unpackramdisk.sh: sdcard obb mount fixed </*>
+<*>dtsi: various fix (CAF)</*>
 
-<*>Fixes for screen dimmer and fast charge modules</*>
+<*>ARM: disable unaligned access</*>
 
-<*>update BusyBox to 1.22.1</*>
+<*>drivers: cpufreq: Add nightmare, pegasusq, intelliactive and hyper governors</*>
