@@ -4,7 +4,7 @@
 
 <*>ASoC various change</*>
 
-<*>trace & staging Various change/*>
+<*>trace & staging Various change</*>
 
 <*>tcp: network speed tweak</*>
 
