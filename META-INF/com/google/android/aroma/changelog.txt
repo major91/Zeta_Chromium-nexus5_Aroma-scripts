@@ -1,13 +1,19 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.7 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.8 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Linux 3.4.80</*>
+<*>ASoC various change</*>
 
-<*>ondemand gov fix up/*>
+<*>trace & staging Various change/*>
 
-<*>dtsi: various fix (CAF)</*>
+<*>tcp: network speed tweak</*>
 
-<*>ARM: disable unaligned access</*>
+<*>scsi: disable module compiling</*>
 
-<*>drivers: cpufreq: Add nightmare, pegasusq, intelliactive and hyper governors</*>
+<*>ipv4: Dump stack on attempt to release alive inet socket</*>
+
+<*>Revert "msm: mdss: Reset panel to apply RGB gamma data"</*>
+
+<*>arm/dt: fix a bootup kmsg error about not finding the property. Fix it by adding the gpio address.</*>
+
+<*>fix sdcardfs mount</*>
