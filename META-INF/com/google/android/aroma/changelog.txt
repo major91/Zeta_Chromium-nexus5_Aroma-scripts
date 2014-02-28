@@ -1,19 +1,29 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.8 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.9 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>ASoC various change</*>
+<*>update toolchain linaro 14.02</*>
 
-<*>trace & staging Various change</*>
+<*>lib: Update RWSEM to Linux 3.10</*>
 
-<*>tcp: network speed tweak</*>
+<*>More gradual levels for backlight dimmer mod (based on @mzhou module) </*>
 
-<*>scsi: disable module compiling</*>
+<*>Allow slightly lower brightness (without backlight dimmer mod)</*>
 
-<*>ipv4: Dump stack on attempt to release alive inet socket</*>
+<*>Option to disable touch wake with power button</*>
 
-<*>Revert "msm: mdss: Reset panel to apply RGB gamma data"</*>
+<*>[deadline] try some different settings</*>
 
-<*>arm/dt: fix a bootup kmsg error about not finding the property. Fix it by adding the gpio address.</*>
+<*>bcmdhd: decrease rx wakelock time from 500ms to 250ms for testing purposes.</*>
 
-<*>fix sdcardfs mount</*>
+<*>Various change crypto</*>
+
+<*>increase the throttle point</*>
+
+<*>kernel: Reduce dmesg spam</*>
+
+<*>max17048: Reduce spam in dmesg</*>
+
+<*>fix mismatch </*>
+
+<*>msm: mpm: Use clock API to prevent XO shutdown </*>
