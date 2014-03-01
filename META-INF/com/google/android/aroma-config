@@ -229,14 +229,18 @@ menubox(
 	  #------------------+-----------------------------------------------------------+---------------#
 
 	  "Governor",               "",                                                            2,  #-- Group 1. key = "selected.1"
-        "interactive",          "",                                                            0,      #-- selected.1 = 1
+        "interactive",         "",                                                            0,      #-- selected.1 = 1
 	    "lazy",                 "",                                                            0,      #-- selected.1 = 2
-		"dancedance",           "",                                                            0,      #-- selected.1 = 3
-		"wheatley",             "",                                                            0,      #-- selected.1 = 4
+		"dancedance",            "",                                                            0,      #-- selected.1 = 3
+		"wheatley",              "",                                                            0,      #-- selected.1 = 4
         "intellidemand",        "",                                                            0,      #-- selected.1 = 5
         "conservation",         "",                                                            0,      #-- selected.1 = 6
         "ondemand",             "",                                                            1,      #-- selected.1 = 7
-	"ondemandplus",		"",							0,
+	"ondemandplus",		         "",							                                       0,      #-- selected.1 = 8
+	"intelliactive",		         "",							                                       0,      #-- selected.1 = 9
+	"HYPER",		                "",							                                       0,      #-- selected.1 = 10
+	"nightmare",		             "",							                                       0,      #-- selected.1 = 11
+	"pegasusq",		             "",							                                       0,      #-- selected.1 = 12
 
 
 	  "CPU MAX FREQ",          "",                                                            2,  #-- Group 2. key = "selected.2"

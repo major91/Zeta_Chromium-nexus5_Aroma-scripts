@@ -50,6 +50,14 @@ elif [ $GOVERNOR = 7 ]; then
 echo "echo ondemand > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 elif [ $GOVERNOR = 8 ]; then
 echo "echo ondemandplus > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 9 ]; then
+echo "echo intelliactive > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 10 ]; then
+echo "echo HYPER > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 11 ]; then
+echo "echo nightmare > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 12 ]; then
+echo "echo pegasusq > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 fi
 
 #Max Freq Setting
