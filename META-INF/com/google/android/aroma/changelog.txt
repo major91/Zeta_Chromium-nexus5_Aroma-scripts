@@ -1,29 +1,12 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.9 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.9.1 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>update toolchain linaro 14.02</*>
+<*> drivers: touch_synaptics: Add PWR_KEY suspend to touch driver and cleanup</*>
 
-<*>lib: Update RWSEM to Linux 3.10</*>
+<*>msm_hotplug: Remove lcdnotifier events </*>
 
-<*>More gradual levels for backlight dimmer mod (based on @mzhou module) </*>
+<*>msm8974: msm_hotplug: Reduce load constraints</*>
 
-<*>Allow slightly lower brightness (without backlight dimmer mod)</*>
+<*>arm/dt: hammerhead: Reduce minimum panel brightness</*>
 
-<*>Option to disable touch wake with power button</*>
-
-<*>[deadline] try some different settings</*>
-
-<*>bcmdhd: decrease rx wakelock time from 500ms to 250ms for testing purposes.</*>
-
-<*>Various change crypto</*>
-
-<*>increase the throttle point</*>
-
-<*>kernel: Reduce dmesg spam</*>
-
-<*>max17048: Reduce spam in dmesg</*>
-
-<*>fix mismatch </*>
-
-<*>msm: mpm: Use clock API to prevent XO shutdown </*>
