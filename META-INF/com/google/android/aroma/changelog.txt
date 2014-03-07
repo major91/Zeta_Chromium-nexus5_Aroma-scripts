@@ -1,12 +1,13 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.9.1 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.10 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*> drivers: touch_synaptics: Add PWR_KEY suspend to touch driver and cleanup</*>
+<*>merge franco staging branch :slimbus, workqueue</*>
 
-<*>msm_hotplug: Remove lcdnotifier events </*>
+<*>drivers : cpufreq various change </*>
 
-<*>msm8974: msm_hotplug: Reduce load constraints</*>
+<*>drivers : cpufrreq : update ondemand, conservative </*>
 
-<*>arm/dt: hammerhead: Reduce minimum panel brightness</*>
+<*>kernel: smpboot, kthread, stop_machine various change</*>
+
 
