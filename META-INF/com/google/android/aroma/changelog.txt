@@ -1,13 +1,10 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.10 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.10.2 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>merge franco staging branch :slimbus, workqueue</*>
+<*msm : pm-8x60 various change</*>
 
-<*>drivers : cpufreq various change </*>
+<*>revert or fixed slimbus, workqueue </*>
 
-<*>drivers : cpufrreq : update ondemand, conservative </*>
-
-<*>kernel: smpboot, kthread, stop_machine various change</*>
 
 
