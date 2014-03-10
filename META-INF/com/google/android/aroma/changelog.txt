@@ -1,10 +1,18 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.10.2 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.11 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*msm : pm-8x60 various change</*>
+<*>rework smpboot</*>
 
-<*>revert or fixed slimbus, workqueue </*>
+<*>Revert "revert or fixed slimbus, workqueue" </*>
 
+<*>asm-generic: rwsem: de-PPCify rwsem.h </*>
 
+<*>ARM: rwsem: use asm-generic rwsem implementation  </*>
+
+<*>asm-generic: rwsem: ensure sem->cnt is only accessed via atomic_long_*  </*>
+
+<*>kernel: Fix all leaks and cleanup</*>
+
+<*>exfat update 1.2.5</*>
 
