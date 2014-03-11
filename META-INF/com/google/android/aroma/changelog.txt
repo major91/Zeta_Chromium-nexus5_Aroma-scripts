@@ -14,5 +14,16 @@
 
 <*>kernel: Fix all leaks and cleanup</*>
 
-<*>exfat update 1.2.5</*>
+<*>FS: import F2FS</*>
 
+<*>msm: Modify functional mode of suspened GPIO</*>
+
+<*>gpiomux-8974: Modify direction of suspended GPIO</*>
+
+<*>arm: vfp: always clear vfp_current_hw_state when forcing reload</*>
+
+<*>mmc: core: Disable HPI for certain Hynix eMMC cards</*>
+
+<*>mmc: core: Add support for HS400</*>
+
+<*>removed usless test </*>
