@@ -1,29 +1,28 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.11 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.12 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>rework smpboot</*>
+<*>Backport random from Linux 3.14</*>
 
-<*>Revert "revert or fixed slimbus, workqueue" </*>
+<*>git merge https://github.com/flar2/ElementalX-N5.git drivers/msm/mdss/ (for random reboot) </*>
 
-<*>asm-generic: rwsem: de-PPCify rwsem.h </*>
+<*>cpufreq: Make sure MSM_SLEEPER is defined </*>
 
-<*>ARM: rwsem: use asm-generic rwsem implementation  </*>
+<*>enable F2FS </*>
 
-<*>asm-generic: rwsem: ensure sem->cnt is only accessed via atomic_long_*  </*>
+<*>net/neighbour: queue work on power efficient wq</*>
 
-<*>kernel: Fix all leaks and cleanup</*>
+<*>fastcharge: New enhancements </*>
 
-<*>FS: import F2FS</*>
+<*>fs: exfat: Update to v1.2.8</*>
 
-<*>msm: Modify functional mode of suspened GPIO</*>
+<*>msm: hotplug: Fixup sysfs interface </*>
 
-<*>gpiomux-8974: Modify direction of suspended GPIO</*>
+<*>msm: hotplug: Update threshold values and down lock duration</*>
 
-<*>arm: vfp: always clear vfp_current_hw_state when forcing reload</*>
+<*>msm: mdss: Remove distinction between positive and negative polarities</*>
 
-<*>mmc: core: Disable HPI for certain Hynix eMMC cards</*>
+<*>[s2w/dt2w pwrkey suspend]: fix unbalanced irq_wake</*>
 
-<*>mmc: core: Add support for HS400</*>
+<*>ARM: dts: msm8974: Reduce cpu DMA latency</*>
 
-<*>removed usless test </*>
