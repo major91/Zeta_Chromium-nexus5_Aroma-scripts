@@ -1,28 +1,32 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.12 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.13 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Backport random from Linux 3.14</*>
+<*>ARM: smp: Wait just 1 second for other CPU to halt </*>
 
-<*>git merge https://github.com/flar2/ElementalX-N5.git drivers/msm/mdss/ (for random reboot) </*>
+<*>smp: Fix idle_thread_init() inline stub</*>
 
-<*>cpufreq: Make sure MSM_SLEEPER is defined </*>
+<*>smpboot: Remove leftover declaration  </*>
 
-<*>enable F2FS </*>
+<*>sched: Remove get_online_cpus() usage </*>
 
-<*>net/neighbour: queue work on power efficient wq</*>
+<*>sched: Remove extra put_online_cpus() inside sched_setaffinity()</*>
 
-<*>fastcharge: New enhancements </*>
+<*>sched: Fix endless sync_sched/rcu() loop inside _cpu_down() </*>
 
-<*>fs: exfat: Update to v1.2.8</*>
+<*>drivers: video: Fix bug with backlight dimmer</*>
 
-<*>msm: hotplug: Fixup sysfs interface </*>
+<*>drivers: video: clean the backlight code </*>
 
-<*>msm: hotplug: Update threshold values and down lock duration</*>
+<*>drivers: misc: Add BLX driver for hammerhead (thanks to @savoca)</*>
 
-<*>msm: mdss: Remove distinction between positive and negative polarities</*>
+<*>fastcharge: Cleanup and fixes </*>
 
-<*>[s2w/dt2w pwrkey suspend]: fix unbalanced irq_wake</*>
+<*>drivers: wireless: Add option to change WiFi power mode on suspend (thanks to @neobuddy89)</*>
 
-<*>ARM: dts: msm8974: Reduce cpu DMA latency</*>
+<*>hashtable: introduce a small and naive hashtable </*>
+
+<*>workqueue: use new hashtable implementation </*>
+
+<*>workqueue: fix find_worker_executing_work() brekage from hashtable conversion </*>
 
