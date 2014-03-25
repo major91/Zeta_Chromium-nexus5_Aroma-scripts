@@ -2,31 +2,18 @@
 
 <*><b>Main change log</b></*>
 
-<*>ARM: smp: Wait just 1 second for other CPU to halt </*>
+<*>thermal : back to google source </*>
 
-<*>smp: Fix idle_thread_init() inline stub</*>
+<*>thermal : change limit_idx_low value</*>
 
-<*>smpboot: Remove leftover declaration  </*>
+<*>Revert sched commit previous version</*>
 
-<*>sched: Remove get_online_cpus() usage </*>
+<*>Linux 3.4.84</*>
 
-<*>sched: Remove extra put_online_cpus() inside sched_setaffinity()</*>
+<*>drivers: cpufreq: Send a uevent when governor changes </*>
 
 <*>sched: Fix endless sync_sched/rcu() loop inside _cpu_down() </*>
 
-<*>drivers: video: Fix bug with backlight dimmer</*>
+<*>cpufreq: Fix broken uevents for cpufreq governor and cpu devices</*>
 
-<*>drivers: video: clean the backlight code </*>
-
-<*>drivers: misc: Add BLX driver for hammerhead (thanks to @savoca)</*>
-
-<*>fastcharge: Cleanup and fixes </*>
-
-<*>drivers: wireless: Add option to change WiFi power mode on suspend (thanks to @neobuddy89)</*>
-
-<*>hashtable: introduce a small and naive hashtable </*>
-
-<*>workqueue: use new hashtable implementation </*>
-
-<*>workqueue: fix find_worker_executing_work() brekage from hashtable conversion </*>
-
+<*>disable Frandom</*>
