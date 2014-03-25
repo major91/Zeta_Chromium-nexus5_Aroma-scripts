@@ -1,4 +1,4 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.13 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.14 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
@@ -11,8 +11,6 @@
 <*>Linux 3.4.84</*>
 
 <*>drivers: cpufreq: Send a uevent when governor changes </*>
-
-<*>sched: Fix endless sync_sched/rcu() loop inside _cpu_down() </*>
 
 <*>cpufreq: Fix broken uevents for cpufreq governor and cpu devices</*>
 
