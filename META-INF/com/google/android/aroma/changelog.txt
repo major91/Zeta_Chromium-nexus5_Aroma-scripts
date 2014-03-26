@@ -1,17 +1,24 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.14 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V2.15 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>thermal : back to google source </*>
+<*>LCD_KCAL: Color Control driver for Nexus 5 (thanks to @savoca)</*>
 
-<*>thermal : change limit_idx_low value</*>
+<*>intelliactive: add upstream patches</*>
 
-<*>Revert sched commit previous version</*>
+<*>rtc: alarm: Proper handling of spinlock</*>
 
-<*>Linux 3.4.84</*>
+<*>staging: android: ashmem: Avoid deadlock with mmap/shrink </*>
 
-<*>drivers: cpufreq: Send a uevent when governor changes </*>
+<*>msm8974: Adapt memutils optimizations from msm8960pro</*>
 
-<*>cpufreq: Fix broken uevents for cpufreq governor and cpu devices</*>
+<*>gcc 4.8.x fixup</*>
 
-<*>disable Frandom</*>
+<*>pm-8x60.c: complaining of power collapse within 1 ms is pointless</*>
+
+<*>mm: slub: Default slub_max_order to 0</*>
+
+<*>qcom: mpm-of: fix bug in finding the pending interrupts </*>
+
+<*> msm: mpm-of: set wakeup interrupt as NO_SUSPEND</*>
+
