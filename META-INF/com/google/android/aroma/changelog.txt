@@ -1,24 +1,49 @@
-<b><#selectbg_g>Zeta_Chromium kernel V2.15 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V3.0 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>LCD_KCAL: Color Control driver for Nexus 5 (thanks to @savoca)</*>
+<*>Linux 3.4.86</*>
 
-<*>intelliactive: add upstream patches</*>
+<*>PM: Introduce suspend state PM_SUSPEND_FREEZE</*>
 
-<*>rtc: alarm: Proper handling of spinlock</*>
+<*>PM / QoS: Fix deadlock during PM QoS vote to default value</*>
 
-<*>staging: android: ashmem: Avoid deadlock with mmap/shrink </*>
+<*>optimize linux/compiler.h</*>
 
-<*>msm8974: Adapt memutils optimizations from msm8960pro</*>
+<*>ARM: Introduce arch_read_hardware_id </*>
 
-<*>gcc 4.8.x fixup</*>
+<*>usb: gadget: Fix synchronization issue between f_audio_source</*>
 
-<*>pm-8x60.c: complaining of power collapse within 1 ms is pointless</*>
+<*>msm: socinfo: Introduce soc string</*>
 
-<*>mm: slub: Default slub_max_order to 0</*>
+<*>msm: socinfo: populate arch_read_hardware_id</*>
 
-<*>qcom: mpm-of: fix bug in finding the pending interrupts </*>
+<*>leds: At disable, set the trigger to default instead of wiping it </*>
 
-<*> msm: mpm-of: set wakeup interrupt as NO_SUSPEND</*>
+<*>byteorder: allow arch to opt to use GCC intrinsics for byteswapping</*>
 
+<*>mm: various update </*>
+
+<*>msm: bam_dmux: various update </*>
+
+<*>backlight: scale max current when the brightness level is below 15 instead of using always 0.</*>
+
+<*>sched/fair: Optimize find_busiest_queue() </*>
+
+<*>sched/fair: Optimize cgroup pick_next_task_fair()</*>
+
+<*>introduction intelli_plug (thanks to @faux123) </*>
+
+<*>ksm: check and skip page, if it is already scanned</*>
+
+<*>sched: merge faux's commit</*>
+
+<*>hammerhead: gpiomux: Fix observed current leak while boot up</*>
+
+<*>ARM: dts: msm8974: Reduce retention voltages</*>
+
+<*>arm/crypto: Add optimized AES and SHA1 routines</*>
+
+<*>merge franco git various code </*>
+
+<*>etc.. if you want to see more, check github</*>
