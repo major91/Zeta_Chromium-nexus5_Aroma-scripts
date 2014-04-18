@@ -1,49 +1,65 @@
-<b><#selectbg_g>Zeta_Chromium kernel V3.0 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V3.1 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Linux 3.4.86</*>
+<*>Linux 3.4.87</*>
 
-<*>PM: Introduce suspend state PM_SUSPEND_FREEZE</*>
+<*>regulator: core: if voltage scaling fails, restore original voltage values</*>
 
-<*>PM / QoS: Fix deadlock during PM QoS vote to default value</*>
+<*>Bluetooth: Prevent Bluetooth L2CAP Remote Heap Memory Corruption</*>
 
-<*>optimize linux/compiler.h</*>
+<*>Revert "msm: bam_dmux: fix compilation issue"</*>
 
-<*>ARM: Introduce arch_read_hardware_id </*>
+<*>Revert "msm: bam_dmux: optimize UL inactivity timeout"</*>
 
-<*>usb: gadget: Fix synchronization issue between f_audio_source</*>
+<*>Revert "Delay UL powerdown if BAM is in polling mode" </*>
 
-<*>msm: socinfo: Introduce soc string</*>
+<*>Revert "msm: bam_dmux: UL inactivity timeout is too high"</*>
 
-<*>msm: socinfo: populate arch_read_hardware_id</*>
+<*>Revert "block: account iowait time when waiting for completion of IO request"</*>
 
-<*>leds: At disable, set the trigger to default instead of wiping it </*>
+<*>ARM: dts: msm8974: Further reduce retention voltages</*>
 
-<*>byteorder: allow arch to opt to use GCC intrinsics for byteswapping</*>
+<*>mmc: core: enable async suspend</*>
 
-<*>mm: various update </*>
+<*>mmc: sdhci-msm: enable async suspend </*>
 
 <*>msm: bam_dmux: various update </*>
 
-<*>backlight: scale max current when the brightness level is below 15 instead of using always 0.</*>
+<*>TTY: msm_smd_tty: Fix simultaneous open/close race condition </*>
 
-<*>sched/fair: Optimize find_busiest_queue() </*>
+<*>ARM: smp: BUG() if smp_send_reschedule() is called for an offline cpu</*>
 
-<*>sched/fair: Optimize cgroup pick_next_task_fair()</*>
+<*>usb: gadget: Fix response available notify count usage</*>
 
-<*>introduction intelli_plug (thanks to @faux123) </*>
+<*>USB: Set power supply online status to false after cable disconnect </*>
 
-<*>ksm: check and skip page, if it is already scanned</*>
+<*>ARM: dts: msm: Modify bus vector for RNG client on msm8974 </*>
 
-<*>sched: merge faux's commit</*>
+<*>wcd9320: various update</*>
 
-<*>hammerhead: gpiomux: Fix observed current leak while boot up</*>
+<*>merge fraco's git gpu & mdss</*>
 
-<*>ARM: dts: msm8974: Reduce retention voltages</*>
+<*>msm: ocmem: Serialize allocation requests only when necessary</*>
 
-<*>arm/crypto: Add optimized AES and SHA1 routines</*>
+<*>msm: ocmem: Do not use data mover for clearing ocmem memory</*>
 
-<*>merge franco git various code </*>
+<*>slimbus: update various code form caf </*>
+
+<*>ARM: dts: enable mdm restart.  </*>
+
+<*> lge: remove console enabler function call, with a recent config change this function is no longer in the Kernel tree. </*>
+
+<*>modify defconfig</*>
+
+<*>modify Makefile</*>
+
+<*>msm: hotplug: remove code related to cpu_killed </*>
+
+<*>msm: hotplug: Block hotplug removal of CPU0  </*>
+
+<*>Revert "mm/pagewalk.c: walk_page_range should avoid VM_PFNMAP areas"</*>
+
+<*>ondemand: Remove sync thread feature </*>
 
 <*>etc.. if you want to see more, check github</*>
