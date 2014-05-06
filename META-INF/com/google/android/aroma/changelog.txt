@@ -24,7 +24,7 @@
 
 <*>msm: kgsl various change </*>
 
-<*>bring frasico franco's thermal source & update lateset commit</*>
+<*>bring frasico franco's thermal source & update latest commit</*>
 
 <*>msm: mdss: Turn off backlight while power off </*>
 
