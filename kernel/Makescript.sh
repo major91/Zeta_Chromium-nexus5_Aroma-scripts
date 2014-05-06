@@ -59,8 +59,10 @@ echo "echo nightmare > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >>
 elif [ $GOVERNOR = 12 ]; then
 echo "echo pegasusq > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 elif [ $GOVERNOR = 13 ]; then
-echo "echo lionheart > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+echo "echo badass > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 elif [ $GOVERNOR = 14 ]; then
+echo "echo lionheart > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 15 ]; then
 echo "echo abyssplugv2 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 fi
 
