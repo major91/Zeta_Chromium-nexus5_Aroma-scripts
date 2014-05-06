@@ -241,6 +241,9 @@ menubox(
 	"HYPER",		                "",							                                       0,      #-- selected.1 = 10
 	"nightmare",		             "",							                                       0,      #-- selected.1 = 11
 	"pegasusq",		             "",							                                       0,      #-- selected.1 = 12
+	"badass",		         "",							                                               0,      #-- selected.1 = 13
+	"lionheart",		                "",							                                       0,      #-- selected.1 = 14
+        "abyssplugv2",		                "",							                                       0,      #-- selected.1 = 15
 
 
 	  "CPU MAX FREQ",          "",                                                            2,  #-- Group 2. key = "selected.2"
@@ -361,7 +364,7 @@ checkbox(
 	  #------------------+-----------------------------------------------------------+---------------#
 
       "MISC",                   "",                                                            2,  #-- Group 3. key = "selected.3"
-	    "Color preset",         "",                                                            1,       #-- selected.3 = 1
+        "Color preset",         "",                                                            1,       #-- selected.3 = 1
         "Fast Charge",          "",     0,
         "BackLight Dimmer",     "",     0,
 	"Dynamic Fsync", 	"",	0

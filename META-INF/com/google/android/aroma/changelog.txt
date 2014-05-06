@@ -24,8 +24,6 @@
 
 <*>mmc: sdhci-msm: enable async suspend </*>
 
-<*>msm: bam_dmux: various update </*>
-
 <*>TTY: msm_smd_tty: Fix simultaneous open/close race condition </*>
 
 <*>ARM: smp: BUG() if smp_send_reschedule() is called for an offline cpu</*>

@@ -58,6 +58,10 @@ elif [ $GOVERNOR = 11 ]; then
 echo "echo nightmare > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 elif [ $GOVERNOR = 12 ]; then
 echo "echo pegasusq > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 13 ]; then
+echo "echo lionheart > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
+elif [ $GOVERNOR = 14 ]; then
+echo "echo abyssplugv2 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" >> $SCRIPT;
 fi
 
 #Max Freq Setting
