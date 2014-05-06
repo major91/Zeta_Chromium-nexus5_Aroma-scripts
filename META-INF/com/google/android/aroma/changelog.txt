@@ -1,63 +1,51 @@
-<b><#selectbg_g>Zeta_Chromium kernel V3.1 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V3.2 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Linux 3.4.87</*>
+<*>Linux 3.4.88</*>
 
-<*>regulator: core: if voltage scaling fails, restore original voltage values</*>
-
-<*>Bluetooth: Prevent Bluetooth L2CAP Remote Heap Memory Corruption</*>
-
-<*>Revert "msm: bam_dmux: fix compilation issue"</*>
-
-<*>Revert "msm: bam_dmux: optimize UL inactivity timeout"</*>
-
-<*>Revert "Delay UL powerdown if BAM is in polling mode" </*>
-
-<*>Revert "msm: bam_dmux: UL inactivity timeout is too high"</*>
-
-<*>Revert "block: account iowait time when waiting for completion of IO request"</*>
-
-<*>ARM: dts: msm8974: Further reduce retention voltages</*>
-
-<*>mmc: core: enable async suspend</*>
-
-<*>mmc: sdhci-msm: enable async suspend </*>
-
-<*>TTY: msm_smd_tty: Fix simultaneous open/close race condition </*>
-
-<*>ARM: smp: BUG() if smp_send_reschedule() is called for an offline cpu</*>
-
-<*>usb: gadget: Fix response available notify count usage</*>
-
-<*>USB: Set power supply online status to false after cable disconnect </*>
-
-<*>ARM: dts: msm: Modify bus vector for RNG client on msm8974 </*>
-
-<*>wcd9320: various update</*>
-
-<*>merge fraco's git gpu & mdss</*>
-
-<*>msm: ocmem: Serialize allocation requests only when necessary</*>
-
-<*>msm: ocmem: Do not use data mover for clearing ocmem memory</*>
+<*>revert dts: lm3630: lower blmap for lower brightness levels & lower min brightness to 1</*>
 
 <*>slimbus: update various code form caf </*>
 
-<*>ARM: dts: enable mdm restart.  </*>
+<*>cpufreq: various change </*>
 
-<*> lge: remove console enabler function call, with a recent config change this function is no longer in the Kernel tree. </*>
+<*>sched/rt: Use root_domain of rt_rq not current processor</*>
 
-<*>modify defconfig</*>
+<*>mmc: core: Exit clock scaling prior to removing the card  </*>
 
-<*>modify Makefile</*>
+<*>mach-msm:board: Add Missing Badass Hooks </*>
 
-<*>msm: hotplug: remove code related to cpu_killed </*>
+<*>Update to latest F2FS </*>
 
-<*>msm: hotplug: Block hotplug removal of CPU0  </*>
+<*>ARM: Improve vmalloc address checking in show_data() </*>
 
-<*>Revert "mm/pagewalk.c: walk_page_range should avoid VM_PFNMAP areas"</*>
+<*>msm: camera: various change </*>
 
-<*>ondemand: Remove sync thread feature </*>
+<*>msm: kgsl various change </*>
+
+<*>bring frasico franco's thermal source & update lateset commit</*>
+
+<*>msm: mdss: Turn off backlight while power off </*>
+
+<*>crypto: various change</*>
+
+<*>net: various change </*>
+
+<*>re-bring BLX thx @savoca</*>
+
+<*>ext4: merge caf commit</*>
+
+<*>PHYLIB: queue work on system_power_efficient_wq </*>
+
+<*>merge @neobuddy89 git net: block: include: </*>
+
+<*>merge rbtree from caf</*>
+
+<*>remove + from kernel version strings</*>
+
+<*>bring franco's git msm: krait: add CPU Voltage control. </*>
+
+<*>bring cpufreq_limit from faux123's git</*>
 
 <*>etc.. if you want to see more, check github</*>
