@@ -2,10 +2,10 @@
 # Initializing Rom Information
 #
 ini_set("rom_name",             "Zeta Chromium kernel");
-ini_set("rom_version",          "3.2");
+ini_set("rom_version",          "3.3");
 ini_set("rom_author",           "major91");
 ini_set("rom_device",           "Nexus 5");
-ini_set("rom_date",             "may 6, 2014");
+ini_set("rom_date",             "june 7, 2014");
 
 
 ##

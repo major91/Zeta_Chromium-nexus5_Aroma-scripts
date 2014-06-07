@@ -1,51 +1,31 @@
-<b><#selectbg_g>Zeta_Chromium kernel V3.2 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V3.3 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Linux 3.4.88</*>
+<*>Linux 3.4.91</*>
 
-<*>revert dts: lm3630: lower blmap for lower brightness levels & lower min brightness to 1</*>
+<*>merged 4.4.3 commits</*>
 
-<*>slimbus: update various code form caf </*>
+<*>toolchain: use Linaro 4.9.1 (14.05) </*>
 
-<*>cpufreq: various change </*>
+<*>Update to the latest F2FS </*>
 
-<*>sched/rt: Use root_domain of rt_rq not current processor</*>
+<*>powersuspend: update the latest commits</*>
 
-<*>mmc: core: Exit clock scaling prior to removing the card  </*>
+<*>LCD KCAL: Fix Gamma max value issue</*>
 
-<*>mach-msm:board: Add Missing Badass Hooks </*>
+<*>intelli_plug update the latest commits</*>
 
-<*>Update to latest F2FS </*>
+<*>Wake Timeout: update the latest commits </*>
 
-<*>ARM: Improve vmalloc address checking in show_data() </*>
+<*>random: updated </*>
 
-<*>msm: camera: various change </*>
+<*>msm8974: fix msm8974_dt_match __initconst mismatch </*>
 
-<*>msm: kgsl various change </*>
+<*>sections: fix const sections for crc32 table</*>
 
-<*>bring frasico franco's thermal source & update latest commit</*>
+<*>selinux: whitelist f2fs</*>
 
-<*>msm: mdss: Turn off backlight while power off </*>
-
-<*>crypto: various change</*>
-
-<*>net: various change </*>
-
-<*>re-bring BLX thx @savoca</*>
-
-<*>ext4: merge caf commit</*>
-
-<*>PHYLIB: queue work on system_power_efficient_wq </*>
-
-<*>merge @neobuddy89 git net: block: include: </*>
-
-<*>merge rbtree from caf</*>
-
-<*>remove + from kernel version strings</*>
-
-<*>bring franco's git msm: krait: add CPU Voltage control. </*>
-
-<*>bring cpufreq_limit from faux123's git</*>
+<*>selinux: whitelist sdcardfs</*>
 
 <*>etc.. if you want to see more, check github</*>
