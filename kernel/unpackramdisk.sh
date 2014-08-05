@@ -49,6 +49,13 @@ then
 /tmp/busybox sed -i 's/uid=1023,gid=1023 \/data\/media/uid=1023,gid=1023,wgid=1015,derive=legacy,reserved_mb=20 \/data\/media/g' $outputdir/init.hammerhead.rc
 fi
 
+if grep "/devices/platform/xhci-hcd auto vfat defaults voldmanaged=usbdisk:auto" $outputdir/fstab.hammerhead
+then
+echo exist
+else
+echo "/devices/platform/xhci-hcd auto vfat defaults voldmanaged=usbdisk:auto" >> $outputdir/fstab.hammerhead
+fi
+
 if grep "/data/media/0/Android/obb" $outputdir/fstab.hammerhead
 then
 /tmp/busybox cat $outputdir/fstab.hammerhead | grep -v "/data/media/0/Android/obb" > /tmp/fstab.tmp
