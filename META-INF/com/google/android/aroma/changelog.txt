@@ -1,31 +1,31 @@
-<b><#selectbg_g>Zeta_Chromium kernel V3.3 Change log</#></b>
+<b><#selectbg_g>Zeta_Chromium kernel V3.4 Change log</#></b>
 
 <*><b>Main change log</b></*>
 
-<*>Linux 3.4.91</*>
+<*>Linux 3.4.101</*>
 
-<*>merged 4.4.3 commits</*>
+<*>upstream Intelli_plug</*>
 
-<*>toolchain: use Linaro 4.9.1 (14.05) </*>
+<*>toolchain: use Linaro 4.9.1 (14.07) </*>
 
 <*>Update to the latest F2FS </*>
 
-<*>powersuspend: update the latest commits</*>
+<*>OTG auto mount option</*>
 
-<*>LCD KCAL: Fix Gamma max value issue</*>
+<*>upstream Sound control </*>
 
 <*>intelli_plug update the latest commits</*>
 
-<*>Wake Timeout: update the latest commits </*>
+<*>AIO: optimizaton </*>
 
-<*>random: updated </*>
+<*>fix bluetooth tethering problem </*>
 
-<*>msm8974: fix msm8974_dt_match __initconst mismatch </*>
+<*>ARM: optimization </*>
 
-<*>sections: fix const sections for crc32 table</*>
+<*>msm: mdss: update qcom source</*>
 
-<*>selinux: whitelist f2fs</*>
+<*>qseecom: improvement</*>
 
-<*>selinux: whitelist sdcardfs</*>
+<*>msm: thermal: refactor the code.</*>
 
 <*>etc.. if you want to see more, check github</*>
